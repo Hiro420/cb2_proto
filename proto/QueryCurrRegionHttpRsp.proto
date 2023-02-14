@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "RegionInfo.proto";
+import "ForceUpdateInfo.proto";
+import "StopServerInfo.proto";
+
+message QueryCurrRegionHttpRsp {
+  oneof Detail {
+    ForceUpdateInfo forceUdpate = 4;
+    StopServerInfo stopServer = 5;
+  }
+  int32 retcode = 1;
+  string msg = 2;
+  RegionInfo regionInfo = 3;
+}

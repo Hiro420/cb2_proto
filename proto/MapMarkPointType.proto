@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+enum MapMarkPointType {
+  Npc = 0;
+  Quest = 1;
+  Special = 2;
+  Mine = 3;
+  Collection = 4;
+  Monster = 5;
+}

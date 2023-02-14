@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ChangeAvatarRsp {
+  int32 retcode = 1;
+  uint64 curGuid = 2;
+  uint32 skillId = 3;
+}

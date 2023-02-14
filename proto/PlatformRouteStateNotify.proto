@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message PlatformRouteStateNotify {
+  uint32 entityId = 1;
+  uint32 sceneTime = 2;
+  Vector pos = 3;
+  Vector rot = 4;
+  uint32 routeId = 5;
+  bool isStarted = 6;
+}

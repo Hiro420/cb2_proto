@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GatherGadgetInfo {
+  uint32 itemId = 1;
+  bool isForbidGuest = 2;
+}

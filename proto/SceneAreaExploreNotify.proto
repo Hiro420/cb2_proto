@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SceneAreaExploreNotify {
+  uint32 areaId = 1;
+  float explorePercent = 2;
+  uint32 eventId = 3;
+}

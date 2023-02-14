@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message TakeInvestigationRewardRsp {
+  int32 retcode = 1;
+  uint32 id = 2;
+}

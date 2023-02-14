@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GMShowObstacleRsp {
+  int32 retcode = 1;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ObstacleInfo> obstacles = 2;
+}

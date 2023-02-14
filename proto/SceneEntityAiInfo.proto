@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "Vector.proto";
+import "ServantInfo.proto";
+
+message SceneEntityAiInfo {
+  bool isAiOpen = 1;
+  Vector bornPos = 2;
+  map<uint32, uint32> skillCdMap = 3;
+  ServantInfo servantInfo = 4;
+}

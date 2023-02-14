@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message FocusAvatarReq {
+  uint64 avatarGuid = 1;
+  bool isFocus = 2;
+}

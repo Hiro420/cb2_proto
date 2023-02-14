@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SceneWeatherForcastReq {
+  uint32 weatherAreaId = 1;
+}

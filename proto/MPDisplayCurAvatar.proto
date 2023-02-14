@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message MPDisplayCurAvatar {
+  uint32 playerUid = 1;
+  uint64 avatarGuid = 2;
+  uint32 lifeState = 3;
+  map<uint32, float> fightPropMap = 4;
+}

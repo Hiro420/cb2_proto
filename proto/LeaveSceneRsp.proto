@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message LeaveSceneRsp {
+  int32 retcode = 1;
+}

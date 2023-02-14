@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+enum PlatformType {
+  Editor = 0;
+  Ios = 1;
+  Android = 2;
+  Pc = 3;
+  Ps4 = 4;
+  Server = 5;
+  CloudAndroid = 6;
+  CloudIos = 7;
+}

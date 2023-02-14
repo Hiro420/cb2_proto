@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message DungeonCandidateTeamInviteNotify {
+  uint32 playerUid = 1;
+  uint32 dungeonId = 2;
+  uint32 vaildDeadlineTimeSec = 3;
+}

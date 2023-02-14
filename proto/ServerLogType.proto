@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum ServerLogType {
+  ServerLogNone = 0;
+  ServerLogAbility = 1;
+  ServerLogLevel = 2;
+  ServerLogEntity = 3;
+}

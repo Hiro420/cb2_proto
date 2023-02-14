@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message GetQuestTalkHistoryReq {
+  uint32 parentQuestId = 1;
+}

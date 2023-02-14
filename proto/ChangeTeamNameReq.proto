@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ChangeTeamNameReq {
+  int32 teamId = 1;
+  string teamName = 2;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message AddQuestContentProgressReq {
+  uint32 contentType = 1;
+  uint32 param = 2;
+  uint32 addProgress = 3;
+}

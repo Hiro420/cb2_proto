@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message WeaponAwakenRsp {
+  int32 retcode = 1;
+  uint64 targetWeaponGuid = 2;
+  map<uint32, uint32> oldAffixLevelMap = 3;
+  map<uint32, uint32> curAffixLevelMap = 4;
+  uint64 avatarGuid = 5;
+}

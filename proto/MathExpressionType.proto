@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum MathExpressionType {
+  MathExprNone = 0;
+  MathExprLevel = 1;
+  MathExprRegisterTime = 2;
+  MathExprLastLoginTime = 3;
+  MathExprTotalLoginDays = 4;
+}

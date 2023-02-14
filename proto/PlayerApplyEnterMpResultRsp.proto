@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message PlayerApplyEnterMpResultRsp {
+  int32 retcode = 1;
+  uint32 applyUid = 2;
+  bool isAgreed = 3;
+}

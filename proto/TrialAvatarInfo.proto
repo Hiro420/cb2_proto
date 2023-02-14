@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "TrialAvatarGrantRecord.proto";
+
+message TrialAvatarInfo {
+  uint32 trialAvatarId = 1;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.Item> trialEquipList = 2;
+  TrialAvatarGrantRecord grantRecord = 3;
+}

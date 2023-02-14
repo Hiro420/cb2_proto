@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "ShopGoods.proto";
+
+message BuyGoodsRsp {
+  int32 retcode = 1;
+  uint32 shopType = 2;
+  ShopGoods goods = 3;
+  uint32 buyCount = 4;
+}

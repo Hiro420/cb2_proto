@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum DungeonCandidateTeamInviteState {
+  None = 0;
+  Send = 1;
+  Accept = 2;
+  Refuse = 3;
+}

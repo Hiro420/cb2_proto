@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SeaLampActivityInfo.proto";
+import "SeaLampActivityPlayerInfo.proto";
+
+message SeaLampActivityInfoNotify {
+  SeaLampActivityInfo activityInfo = 1;
+  SeaLampActivityPlayerInfo activityPlayerInfo = 2;
+}

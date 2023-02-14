@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "MPDisplayCurAvatar.proto";
+
+message SceneTeamMPDisplayCurAvatarNotify {
+  MPDisplayCurAvatar displayCurAvatar = 1;
+}

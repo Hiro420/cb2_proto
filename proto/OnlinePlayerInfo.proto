@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "MpSettingType.proto";
+
+message OnlinePlayerInfo {
+  uint32 uid = 1;
+  string nickname = 2;
+  uint32 playerLevel = 3;
+  uint32 avatarId = 4;
+  MpSettingType mpSettingType = 5;
+  uint32 curPlayerNumInWorld = 6;
+}

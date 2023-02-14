@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "NpcTalkType.proto";
+
+message NpcTalkRsp {
+  int32 retcode = 1;
+  uint32 npcEntityId = 2;
+  NpcTalkType talkType = 3;
+  uint32 curTalkId = 4;
+}

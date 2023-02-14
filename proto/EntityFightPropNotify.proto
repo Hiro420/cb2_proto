@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message EntityFightPropNotify {
+  uint32 entityId = 1;
+  map<uint32, float> fightPropMap = 2;
+}

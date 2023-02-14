@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SceneTransToPointRsp {
+  int32 retcode = 1;
+  uint32 sceneId = 2;
+  uint32 pointId = 3;
+}

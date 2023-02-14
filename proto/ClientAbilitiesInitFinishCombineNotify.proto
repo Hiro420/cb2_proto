@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ClientAbilitiesInitFinishCombineNotify {
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.EntityAbilityInvokeEntry> entityInvokeList = 1;
+}

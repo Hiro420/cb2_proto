@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ServerTimeNotify {
+  uint64 serverTime = 1;
+}

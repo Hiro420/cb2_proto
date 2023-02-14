@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ProudSkillUpgradeReq {
+  uint64 avatarGuid = 1;
+  uint32 proudSkillId = 2;
+  uint32 oldProudSkillLevel = 3;
+}

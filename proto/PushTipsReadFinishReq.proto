@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message PushTipsReadFinishReq {
+  uint32 pushTipsId = 1;
+}

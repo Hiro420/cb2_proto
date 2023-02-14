@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message QuestUpdateQuestVarRsp {
+  int32 retcode = 1;
+  uint32 questId = 2;
+}

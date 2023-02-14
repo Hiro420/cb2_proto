@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "AvatarExpeditionState.proto";
+
+message AvatarExpeditionInfo {
+  AvatarExpeditionState state = 1;
+  uint32 expId = 2;
+  uint32 hourTime = 3;
+  uint32 startTime = 4;
+}

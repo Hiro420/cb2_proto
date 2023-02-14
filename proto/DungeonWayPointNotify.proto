@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message DungeonWayPointNotify {
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> activeWayPointList = 1;
+  bool isAdd = 2;
+}

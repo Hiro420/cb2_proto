@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message GivingRecordNotify {
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.GivingRecord> givingRecordList = 1;
+}

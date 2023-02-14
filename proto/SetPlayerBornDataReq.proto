@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SetPlayerBornDataReq {
+  uint32 avatarId = 1;
+  string nickName = 2;
+}

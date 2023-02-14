@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message AvatarExpeditionCallBackReq {
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt64> avatarGuid = 1;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "Reward.proto";
+
+message GrantRewardNotify {
+  Reward reward = 1;
+}

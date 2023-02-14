@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message DataResVersionNotify {
+  uint32 dataVersion = 1;
+  uint32 resVersion = 2;
+  uint32 resVersionEx = 3;
+}

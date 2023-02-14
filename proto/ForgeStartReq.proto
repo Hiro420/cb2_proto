@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ForgeStartReq {
+  uint32 forgeId = 1;
+  uint32 forgeCount = 2;
+  uint32 avatarId = 3;
+}

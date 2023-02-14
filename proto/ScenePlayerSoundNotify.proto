@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message ScenePlayerSoundNotify {
+  enum PlaySoundType {
+    PlaySoundNone = 0;
+    PlaySoundStart = 1;
+    PlaySoundStop = 2;
+  }
+  string soundName = 1;
+  Vector playPos = 2;
+  PlaySoundType playType = 3;
+}

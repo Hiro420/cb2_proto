@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "OnlinePlayerInfo.proto";
+
+message PlayerApplyEnterMpNotify {
+  OnlinePlayerInfo srcPlayerInfo = 1;
+}

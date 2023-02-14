@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message WeaponAwakenReq {
+  uint64 targetWeaponGuid = 1;
+  uint64 itemGuid = 2;
+  map<uint32, uint32> affixLevelMap = 3;
+}

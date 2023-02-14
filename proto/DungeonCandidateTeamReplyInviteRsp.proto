@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message DungeonCandidateTeamReplyInviteRsp {
+  int32 retcode = 1;
+  bool isTransPoint = 2;
+}

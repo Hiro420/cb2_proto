@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+enum ServiceType {
+  ServiceNone = 0;
+  ServiceClient = 1;
+  ServiceGate = 2;
+  ServiceGame = 3;
+  ServiceNode = 4;
+  ServiceDb = 5;
+  ServiceSns = 6;
+  ServiceDispatch = 7;
+  ServiceMuip = 8;
+  ServiceOfflineMsg = 9;
+  ServiceMail = 10;
+  ServiceMp = 11;
+  ServiceHttpproxy = 12;
+  ServiceActivity = 13;
+  ServicePathfinding = 14;
+}

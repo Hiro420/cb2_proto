@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "Vector.proto";
+import "QueryFilter.proto";
+import "Vector3Int.proto";
+
+message QueryPathReq {
+  enum OptionType {
+    OptionNone = 0;
+    OptionNormal = 1;
+    OptionFirstCanGo = 2;
+  }
+  OptionType queryType = 1;
+  int32 queryId = 2;
+  uint32 sceneId = 3;
+  Vector sourcePos = 4;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.Vector> destinationPos = 5;
+  QueryFilter filter = 6;
+  Vector3Int destinationExtend = 7;
+}

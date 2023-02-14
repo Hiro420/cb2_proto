@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message ProudSkillExtraLevelNotify {
+  uint64 avatarGuid = 1;
+  uint32 talentType = 2;
+  uint32 talentIndex = 3;
+  uint32 extraLevel = 4;
+}

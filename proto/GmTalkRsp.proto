@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message GmTalkRsp {
+  int32 retcode = 1;
+  string msg = 2;
+  string retmsg = 3;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum DungeonCandidateTeamPlayerLeaveReason {
+  DungeonCandidateTplrNormal = 0;
+  DungeonCandidateTplrDie = 1;
+  DungeonCandidateTplrBeKick = 2;
+  DungeonCandidateDisconnect = 3;
+}

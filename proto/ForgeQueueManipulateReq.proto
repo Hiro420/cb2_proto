@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ForgeQueueManipulateType.proto";
+
+message ForgeQueueManipulateReq {
+  uint32 forgeQueueId = 1;
+  ForgeQueueManipulateType manipulateType = 2;
+}

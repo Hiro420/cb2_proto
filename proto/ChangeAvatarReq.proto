@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ChangeAvatarReq {
+  uint64 guid = 1;
+  uint32 skillId = 2;
+}

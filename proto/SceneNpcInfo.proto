@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SceneNpcInfo {
+  uint32 npcId = 1;
+  uint32 roomId = 2;
+  uint32 questId = 3;
+}

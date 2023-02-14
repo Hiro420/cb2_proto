@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CreateMassiveEntityNotify {
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ServerMassiveEntity> massiveEntityList = 1;
+}

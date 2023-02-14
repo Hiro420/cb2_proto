@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message TriggerCreateGadgetToEquipPartNotify {
+  uint32 entityId = 1;
+  uint32 gadgetEntityId = 2;
+  uint32 gadgetId = 3;
+  string equipPart = 4;
+}

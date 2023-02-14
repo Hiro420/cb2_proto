@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message AbilityMixinElementShield {
+  float subShield = 1;
+  bool isShieldBroken = 2;
+  float shield = 3;
+  float maxShield = 4;
+  uint32 absorbType = 5;
+}

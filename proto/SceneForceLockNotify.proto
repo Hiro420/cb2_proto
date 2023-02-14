@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SceneForceLockNotify {
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> forceIdList = 1;
+}

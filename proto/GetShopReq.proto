@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message GetShopReq {
+  uint32 shopType = 1;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ChallengeDataNotify {
+  uint32 challengeIndex = 1;
+  uint32 paramIndex = 2;
+  uint32 value = 3;
+}

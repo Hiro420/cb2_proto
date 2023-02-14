@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ChildQuest {
+  uint32 questId = 1;
+  uint32 state = 2;
+  uint32 questConfigId = 3;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "AvatarExpeditionInfo.proto";
+
+message AvatarExpeditionDataNotify {
+  map<uint64, AvatarExpeditionInfo> expeditionInfoMap = 1;
+}

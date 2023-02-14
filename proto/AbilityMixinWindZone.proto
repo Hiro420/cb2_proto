@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message AbilityMixinWindZone {
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> entityIds = 1;
+}

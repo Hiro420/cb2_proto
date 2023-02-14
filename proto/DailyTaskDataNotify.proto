@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message DailyTaskDataNotify {
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.DailyTaskInfo> taskList = 1;
+  uint32 scoreRewardId = 3;
+  bool isTakenScoreReward = 4;
+  uint32 finishedNum = 5;
+}

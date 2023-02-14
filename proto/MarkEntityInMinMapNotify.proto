@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message MarkEntityInMinMapNotify {
+  uint32 entityId = 1;
+  Vector position = 2;
+  uint32 monsterId = 3;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+enum LanguageType {
+  LanguageNone = 0;
+  LanguageEn = 1;
+  LanguageSc = 2;
+  LanguageTc = 3;
+  LanguageFr = 4;
+  LanguageDe = 5;
+  LanguageEs = 6;
+  LanguagePt = 7;
+  LanguageRu = 8;
+  LanguageJp = 9;
+  LanguageKr = 10;
+  LanguageTh = 11;
+  LanguageVn = 12;
+  LanguageId = 13;
+}

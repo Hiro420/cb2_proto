@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message HostPlayerNotify {
+  uint32 hostUid = 1;
+  uint32 hostPeerId = 2;
+}

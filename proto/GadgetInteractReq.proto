@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "InterOpType.proto";
+
+message GadgetInteractReq {
+  uint32 gadgetEntityId = 1;
+  InterOpType opType = 2;
+  uint32 gadgetId = 3;
+}

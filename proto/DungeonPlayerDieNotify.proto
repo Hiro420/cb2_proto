@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "PlayerDieType.proto";
+
+message DungeonPlayerDieNotify {
+  oneof Entity {
+    uint32 monsterId = 6;
+    uint32 gadgetId = 7;
+  }
+  uint32 dungeonId = 1;
+  PlayerDieType dieType = 2;
+  uint32 reviveCount = 3;
+  uint32 waitTime = 4;
+  uint32 murdererEntityId = 5;
+}

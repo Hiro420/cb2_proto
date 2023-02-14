@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum DungeonDataType {
+  DungeonDataNone = 0;
+  DungeonDataEndTime = 1;
+  DungeonDataMonsterDieCount = 2;
+  DungeonDataLevelConfigId = 3;
+}

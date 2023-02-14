@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SetPlayerNameReq {
+  string nickName = 1;
+}

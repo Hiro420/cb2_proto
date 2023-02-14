@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message CombineRsp {
+  int32 retcode = 1;
+  uint32 combineId = 2;
+  uint32 combineCount = 3;
+  uint64 avatarGuid = 4;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ItemParam> costItemList = 5;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ItemParam> resultItemList = 6;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ItemParam> totalRandomItemList = 7;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ItemParam> totalReturnItemList = 8;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ItemParam> totalExtraItemList = 9;
+}

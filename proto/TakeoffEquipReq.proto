@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message TakeoffEquipReq {
+  uint64 avatarGuid = 1;
+  uint32 slot = 2;
+}

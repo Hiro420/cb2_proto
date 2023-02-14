@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message PlayerSetLanguageRsp {
+  uint32 retcode = 1;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message RobotPushPlayerDataNotify {
+  bytes bin = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum SvrMsgId {
+  MsgUnknown = 0;
+  MsgBlockRefreshCountdown = 1;
+  MsgAvatarReviveByStatue = 2;
+  MsgDailyTaskRewardMaxNum = 3;
+}

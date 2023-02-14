@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SetOpenStateRsp {
+  int32 retcode = 1;
+  uint32 key = 2;
+  uint32 value = 3;
+}

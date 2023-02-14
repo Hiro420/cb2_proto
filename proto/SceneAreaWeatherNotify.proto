@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SceneAreaWeatherNotify {
+  uint32 weatherGadgetId = 1;
+  map<uint32, string> weatherValueMap = 2;
+  uint32 weatherAreaId = 3;
+  uint32 climateType = 4;
+}

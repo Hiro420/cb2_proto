@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "CreateEntityInfo.proto";
+import "CreateReason.proto";
+
+message SceneCreateEntityReq {
+  CreateEntityInfo entity = 1;
+  CreateReason reason = 2;
+}

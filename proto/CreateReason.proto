@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum CreateReason {
+  CreateNone = 0;
+  CreateQuest = 1;
+  CreateEnergy = 2;
+}

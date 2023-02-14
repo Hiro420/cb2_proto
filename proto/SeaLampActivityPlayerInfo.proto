@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SeaLampActivityPlayerInfo {
+  uint32 contribution = 1;
+}

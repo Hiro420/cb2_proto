@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "EvtBeingHitInfo.proto";
+
+message EvtBeingHitNotify {
+  EvtBeingHitInfo beingHitInfo = 1;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message AvatarExpeditionGetRewardReq {
+  uint64 avatarGuid = 1;
+}

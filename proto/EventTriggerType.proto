@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum EventTriggerType {
+  EventTriggerNone = 0;
+  EventTriggerEnterForce = 1;
+}

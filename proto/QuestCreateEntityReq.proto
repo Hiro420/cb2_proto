@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "CreateEntityInfo.proto";
+
+message QuestCreateEntityReq {
+  CreateEntityInfo entity = 1;
+  uint32 questId = 2;
+  bool isRewind = 3;
+}

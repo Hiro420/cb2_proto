@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SceneDataNotify {
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.String> levelConfigNameList = 1;
+}

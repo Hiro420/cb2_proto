@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ChangeMpTeamAvatarRsp {
+  int32 retcode = 1;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt64> avatarGuidList = 2;
+  uint64 curAvatarGuid = 3;
+}

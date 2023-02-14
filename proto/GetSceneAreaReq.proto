@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GetSceneAreaReq {
+  uint32 sceneId = 1;
+  uint32 belongUid = 2;
+}

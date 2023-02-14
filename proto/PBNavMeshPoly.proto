@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message PBNavMeshPoly {
+  enum EdgeType {
+    Inner = 0;
+    TileBound = 1;
+    TileBoundUnconnect = 2;
+  }
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.Int32> vects = 1;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.PBNavMeshPoly/Types/EdgeType> edgeTypes = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SealBattleProgressNotify {
+  uint32 sealEntityId = 1;
+  uint32 progress = 2;
+  uint32 maxProgress = 3;
+  uint32 endTime = 4;
+  uint32 sealRadius = 5;
+}

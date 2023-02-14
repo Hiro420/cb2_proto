@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ChangeTeamNameRsp {
+  int32 teamId = 1;
+  string teamName = 2;
+  int32 retcode = 3;
+}

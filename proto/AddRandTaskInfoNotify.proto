@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message AddRandTaskInfoNotify {
+  uint32 randTaskId = 1;
+  Vector pos = 2;
+}

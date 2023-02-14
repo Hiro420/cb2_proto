@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ModifierDurability {
+  float reduceRatio = 1;
+  float remainingDurability = 2;
+}

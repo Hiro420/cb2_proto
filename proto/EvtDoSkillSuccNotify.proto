@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "ForwardType.proto";
+import "Vector.proto";
+
+message EvtDoSkillSuccNotify {
+  ForwardType forwardType = 1;
+  uint32 casterId = 2;
+  uint32 skillId = 3;
+  Vector forward = 4;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "CompoundQueueData.proto";
+
+message PlayerCompoundMaterialRsp {
+  uint32 retcode = 1;
+  CompoundQueueData compoundQueData = 2;
+}

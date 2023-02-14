@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message PlayerChatCDNotify {
+  uint32 overTime = 1;
+}

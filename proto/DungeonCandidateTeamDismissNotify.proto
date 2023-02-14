@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "DungeonCandidateTeamDismissReason.proto";
+
+message DungeonCandidateTeamDismissNotify {
+  uint32 playerUid = 1;
+  DungeonCandidateTeamDismissReason reason = 2;
+}

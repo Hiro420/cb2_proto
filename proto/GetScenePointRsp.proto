@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message GetScenePointRsp {
+  int32 retcode = 1;
+  uint32 sceneId = 2;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> unlockedPointList = 3;
+  uint32 belongUid = 4;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> unlockAreaList = 5;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> lockedPointList = 6;
+}

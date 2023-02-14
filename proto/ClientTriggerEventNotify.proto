@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "EventTriggerType.proto";
+
+message ClientTriggerEventNotify {
+  EventTriggerType eventType = 1;
+  uint32 forceId = 2;
+}

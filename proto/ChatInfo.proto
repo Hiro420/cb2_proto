@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+message ChatInfo {
+  message SystemHint {
+    uint32 type = 1;
+  }
+  enum SystemHintType {
+    ChatNone = 0;
+    ChatEnterWorld = 1;
+    ChatLeaveWorld = 2;
+  }
+  oneof Content {
+    string text = 3;
+    uint32 icon = 4;
+    SystemHint systemHint = 5;
+  }
+  uint32 time = 1;
+  uint32 uid = 2;
+}

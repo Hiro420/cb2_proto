@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message UnlockTransPointReq {
+  uint32 sceneId = 1;
+  uint32 pointId = 2;
+}

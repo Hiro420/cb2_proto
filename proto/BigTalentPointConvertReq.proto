@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BigTalentPointConvertReq {
+  uint64 avatarGuid = 1;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt64> itemGuidList = 2;
+}

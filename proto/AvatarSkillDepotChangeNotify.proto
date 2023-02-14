@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message AvatarSkillDepotChangeNotify {
+  uint64 avatarGuid = 1;
+  uint32 entityId = 2;
+  uint32 skillDepotId = 3;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> talentIdList = 4;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> proudSkillList = 5;
+  uint32 coreProudSkillLevel = 6;
+  map<uint32, uint32> skillLevelMap = 7;
+  map<uint32, uint32> proudSkillExtraLevelMap = 8;
+}

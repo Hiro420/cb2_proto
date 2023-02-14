@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message PlayerGameTimeNotify {
+  uint32 gameTime = 1;
+  uint32 uid = 2;
+}

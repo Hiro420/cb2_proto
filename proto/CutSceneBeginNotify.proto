@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CutSceneBeginNotify {
+  uint32 cutsceneId = 1;
+  bool isWaitOthers = 2;
+}

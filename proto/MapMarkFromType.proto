@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum MapMarkFromType {
+  Noe = 0;
+  Monster = 1;
+  Quest = 2;
+}

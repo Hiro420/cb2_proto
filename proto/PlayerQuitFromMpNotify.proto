@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message PlayerQuitFromMpNotify {
+  enum QuitReason {
+    Invalid = 0;
+    HostNoOtherPlayer = 1;
+    KickByHost = 2;
+    BackToMyWorld = 3;
+    KickByHostLogout = 4;
+  }
+  QuitReason reason = 1;
+}

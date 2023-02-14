@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ScenePlayerInfoNotify {
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ScenePlayerInfo> playerInfoList = 1;
+}

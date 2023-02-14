@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message AvatarPromoteRsp {
+  int32 retcode = 1;
+  uint64 guid = 2;
+}

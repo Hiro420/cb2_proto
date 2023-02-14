@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+enum VirtualItem {
+  ItemVirtualNone = 0;
+  ItemVirtualAvatarExp = 101;
+  ItemVirtualPlayerExp = 102;
+  ItemVirtualFetterExp = 105;
+  ItemVirtualHcoin = 201;
+  ItemVirtualScoin = 202;
+}

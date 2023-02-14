@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ChangeGameTimeReq {
+  uint32 gameTime = 1;
+  bool isForceSet = 2;
+}

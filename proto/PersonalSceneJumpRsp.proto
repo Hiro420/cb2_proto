@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message PersonalSceneJumpRsp {
+  int32 retcode = 1;
+  uint32 destSceneId = 2;
+  Vector destPos = 3;
+}

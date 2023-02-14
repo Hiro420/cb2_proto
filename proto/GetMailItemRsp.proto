@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message GetMailItemRsp {
+  uint32 retcode = 1;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> mailIdList = 2;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.EquipParam> itemList = 3;
+}

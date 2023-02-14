@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message MonsterForceAlertNotify {
+  uint32 monsterEntityId = 1;
+  bool isAlert = 2;
+}

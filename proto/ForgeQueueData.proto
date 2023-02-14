@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message ForgeQueueData {
+  uint32 queueId = 1;
+  uint32 forgeId = 2;
+  uint32 finishCount = 3;
+  uint32 unfinishCount = 4;
+  uint32 nextFinishTimestamp = 5;
+  uint32 totalFinishTimestamp = 6;
+  uint32 avatarId = 7;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message ExecuteGadgetLuaReq {
+  uint32 sourceEntityId = 1;
+  int32 param1 = 2;
+  int32 param2 = 3;
+  int32 param3 = 4;
+}

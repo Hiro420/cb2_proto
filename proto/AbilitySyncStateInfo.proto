@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message AbilitySyncStateInfo {
+  bool isInited = 1;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.AbilityScalarValueEntry> dynamicValueMap = 2;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.AbilityAppliedAbility> appliedAbilities = 3;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.AbilityAppliedModifier> appliedModifiers = 4;
+}

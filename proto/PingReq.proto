@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message PingReq {
+  uint32 seq = 1;
+  uint32 clientTime = 2;
+}

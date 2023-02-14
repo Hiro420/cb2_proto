@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message ActivityScheduleInfo {
+  uint32 activityId = 1;
+  bool isOpen = 2;
+  uint32 scheduleId = 3;
+  uint32 beginTime = 4;
+  uint32 endTime = 5;
+}

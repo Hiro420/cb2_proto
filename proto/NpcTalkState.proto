@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum NpcTalkState {
+  NpcTalkNone = 0;
+  NpcTalkAuto = 1;
+  NpcTalkManual = 2;
+}

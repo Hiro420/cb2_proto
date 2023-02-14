@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SetSceneWeatherAreaReq {
+  uint32 weatherGadgetId = 1;
+  map<uint32, string> weatherValueMap = 2;
+}

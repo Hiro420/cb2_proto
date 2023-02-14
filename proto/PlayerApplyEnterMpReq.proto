@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message PlayerApplyEnterMpReq {
+  uint32 targetUid = 1;
+}

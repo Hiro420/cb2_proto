@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "ParamList.proto";
+
+message DungeonSettleNotify {
+  uint32 dungeonId = 1;
+  bool isSuccess = 2;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> failCondList = 3;
+  map<uint32, ParamList> settleShow = 4;
+  uint32 closeTime = 5;
+}

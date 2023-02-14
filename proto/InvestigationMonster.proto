@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message InvestigationMonster {
+  enum LockState {
+    LockNone = 0;
+    LockQuest = 1;
+  }
+  uint32 id = 1;
+  uint32 cityId = 2;
+  uint32 level = 3;
+  bool isAlive = 4;
+  uint32 nextRefreshTime = 5;
+  uint32 refreshInterval = 6;
+  Vector pos = 7;
+  LockState lockState = 8;
+}

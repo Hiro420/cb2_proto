@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message PlayerCookArgsRsp {
+  uint32 retcode = 1;
+  float qteRangeRatio = 2;
+}

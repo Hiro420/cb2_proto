@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum ServerLogLevel {
+  LogLevelNone = 0;
+  LogLevelDebug = 1;
+  LogLevelInfo = 2;
+  LogLevelWarning = 3;
+  LogLevelError = 4;
+}

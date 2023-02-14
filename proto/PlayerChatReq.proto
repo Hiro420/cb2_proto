@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ChatInfo.proto";
+
+message PlayerChatReq {
+  uint32 channelId = 1;
+  ChatInfo chatInfo = 2;
+}

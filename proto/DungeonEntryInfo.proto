@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message DungeonEntryInfo {
+  uint32 dungeonId = 1;
+  bool isPassed = 2;
+  uint32 leftTimes = 3;
+  uint32 startTime = 4;
+  uint32 endTime = 5;
+}

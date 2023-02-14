@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message QuestVarOp {
+  uint32 index = 1;
+  int32 value = 2;
+  bool isAdd = 3;
+}

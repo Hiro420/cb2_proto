@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "Vector.proto";
+import "TransmitReason.proto";
+
+message ClientTransmitReq {
+  Vector pos = 1;
+  Vector rot = 2;
+  TransmitReason reason = 3;
+  uint32 sceneId = 4;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message AvatarSkillMaxChargeCountNotify {
+  uint64 avatarGuid = 1;
+  uint32 skillId = 2;
+  uint32 maxChargeCount = 3;
+}

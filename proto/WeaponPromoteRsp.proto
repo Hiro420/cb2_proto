@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message WeaponPromoteRsp {
+  int32 retcode = 1;
+  uint64 targetWeaponGuid = 2;
+  uint32 oldPromoteLevel = 3;
+  uint32 curPromoteLevel = 4;
+}

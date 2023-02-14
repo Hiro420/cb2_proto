@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message ChallengeRecord {
+  uint32 challengeIndex = 1;
+  uint32 challengeId = 2;
+  uint32 challengeRecordType = 3;
+  uint32 bestValue = 4;
+}

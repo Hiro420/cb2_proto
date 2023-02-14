@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message ReliquaryPromoteRsp {
+  int32 retcode = 1;
+  uint64 targetReliquaryGuid = 2;
+  uint32 oldPromoteLevel = 3;
+  uint32 curPromoteLevel = 4;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> oldAppendPropList = 5;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> curAppendPropList = 6;
+}

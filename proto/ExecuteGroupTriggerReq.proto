@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message ExecuteGroupTriggerReq {
+  uint32 sourceEntityId = 1;
+  string sourceName = 2;
+  uint32 targetEntityId = 3;
+  int32 param1 = 4;
+  int32 param2 = 5;
+  int32 param3 = 6;
+}

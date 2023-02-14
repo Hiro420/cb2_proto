@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ClientPauseNotify {
+  bool isOpen = 1;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SpringUseReq {
+  uint64 guid = 1;
+}

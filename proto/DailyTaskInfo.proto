@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message DailyTaskInfo {
+  uint32 dailyTaskId = 1;
+  uint32 rewardId = 2;
+  uint32 progress = 3;
+  uint32 finishProgress = 4;
+  bool isFinished = 5;
+}

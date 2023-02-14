@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+enum AbilityResetReasonType {
+  AbilityChangeSkillDepot = 0;
+  AbilityUnlockTalent = 1;
+  AbilityChangeEquip = 2;
+  AbilityProudSkill = 3;
+  AbilityAvatarSkill = 4;
+  AbilityCoreProudSkill = 5;
+  AbilityTalentExtraLevel = 6;
+}

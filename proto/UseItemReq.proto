@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message UseItemReq {
+  uint64 guid = 1;
+  uint32 count = 2;
+  uint64 targetGuid = 3;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message GadgetStateNotify {
+  uint32 gadgetEntityId = 1;
+  uint32 gadgetState = 2;
+  bool isEnableInteract = 3;
+}

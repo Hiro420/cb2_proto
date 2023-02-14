@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SceneEntityDrownReq {
+  uint32 entityId = 1;
+}

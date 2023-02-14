@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SelectWorktopOptionReq {
+  uint32 gadgetEntityId = 1;
+  uint32 optionId = 2;
+}

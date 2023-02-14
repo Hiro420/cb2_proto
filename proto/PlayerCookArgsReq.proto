@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message PlayerCookArgsReq {
+  uint32 recipeId = 1;
+  uint32 assistAvatar = 2;
+}

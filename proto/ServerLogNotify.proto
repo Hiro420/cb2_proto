@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "ServerLogType.proto";
+import "ServerLogLevel.proto";
+
+message ServerLogNotify {
+  ServerLogType logType = 1;
+  ServerLogLevel logLevel = 2;
+  string serverLog = 3;
+}

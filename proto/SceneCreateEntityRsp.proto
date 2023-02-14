@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "CreateEntityInfo.proto";
+
+message SceneCreateEntityRsp {
+  int32 retcode = 1;
+  uint32 entityId = 2;
+  CreateEntityInfo entity = 3;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SetUpAvatarTeamReq {
+  uint32 teamId = 1;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt64> avatarTeamGuidList = 2;
+  uint64 curAvatarGuid = 3;
+}

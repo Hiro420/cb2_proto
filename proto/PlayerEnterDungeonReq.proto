@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message PlayerEnterDungeonReq {
+  uint32 pointId = 1;
+  uint32 dungeonId = 2;
+}

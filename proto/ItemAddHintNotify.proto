@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message ItemAddHintNotify {
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ItemHint> itemList = 1;
+  Vector position = 2;
+  bool isPositionValid = 3;
+  uint32 reason = 4;
+  uint32 questId = 5;
+}

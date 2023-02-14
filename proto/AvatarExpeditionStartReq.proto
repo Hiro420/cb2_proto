@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message AvatarExpeditionStartReq {
+  uint64 avatarGuid = 1;
+  uint32 expId = 2;
+  uint32 hourTime = 3;
+}

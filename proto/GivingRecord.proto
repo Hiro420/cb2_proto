@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message GivingRecord {
+  uint32 givingId = 1;
+  bool isFinished = 2;
+  uint32 lastGroupId = 3;
+}

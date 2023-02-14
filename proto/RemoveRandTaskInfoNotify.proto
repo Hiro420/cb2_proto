@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message RemoveRandTaskInfoNotify {
+  enum FinishReason {
+    Default = 0;
+    Clear = 1;
+    Distance = 2;
+    Finish = 3;
+  }
+  uint32 randTaskId = 1;
+  bool isSucc = 2;
+  FinishReason reason = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "PlatformInfo.proto";
+
+message PlatformStartRouteNotify {
+  uint32 entityId = 1;
+  PlatformInfo platform = 2;
+  uint32 sceneTime = 3;
+}

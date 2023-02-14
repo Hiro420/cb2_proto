@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message BeginCameraSceneLookNotify {
+  Vector lookPos = 1;
+  float duration = 2;
+  bool isForce = 3;
+  bool isRecoverKeepCurrent = 4;
+}

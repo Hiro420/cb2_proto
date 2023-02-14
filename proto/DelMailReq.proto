@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message DelMailReq {
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> mailIdList = 1;
+}

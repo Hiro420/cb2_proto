@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message DungeonCandidateTeamSetReadyReq {
+  bool isReady = 1;
+}

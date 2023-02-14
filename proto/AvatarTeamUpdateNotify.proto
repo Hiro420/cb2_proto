@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "AvatarTeam.proto";
+
+message AvatarTeamUpdateNotify {
+  map<uint32, AvatarTeam> avatarTeamMap = 1;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt64> tempAvatarGuidList = 2;
+}

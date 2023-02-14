@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "StoreType.proto";
+
+message DropItemRsp {
+  int32 retcode = 1;
+  StoreType storeType = 2;
+  uint64 guid = 3;
+}

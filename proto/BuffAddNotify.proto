@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BuffAddNotify {
+  uint32 entityId = 1;
+  uint32 buffId = 2;
+}

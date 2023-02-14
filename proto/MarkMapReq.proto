@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "MapMarkPoint.proto";
+
+message MarkMapReq {
+  enum Operation {
+    Add = 0;
+    Mod = 1;
+    Del = 2;
+    Get = 3;
+  }
+  Operation op = 1;
+  MapMarkPoint old = 2;
+  MapMarkPoint mark = 3;
+}

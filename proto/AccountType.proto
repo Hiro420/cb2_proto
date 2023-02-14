@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+enum AccountType {
+  AccountNone = 0;
+  AccountMihoyo = 1;
+  AccountXiaomi = 11;
+  AccountCoolpad = 12;
+  AccountYyb = 13;
+  AccountBili = 14;
+  AccountHuawei = 15;
+  AccountMeizu = 16;
+  Account360 = 17;
+  AccountOppo = 18;
+  AccountVivo = 19;
+  AccountUc = 20;
+  AccountWandojia = 21;
+  AccountLenovo = 22;
+  AccountJinli = 23;
+}

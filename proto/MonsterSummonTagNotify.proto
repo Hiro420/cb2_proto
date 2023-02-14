@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message MonsterSummonTagNotify {
+  uint32 monsterEntityId = 1;
+  map<uint32, uint32> summonTagMap = 2;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BigTalentPointConvertRsp {
+  int32 retcode = 1;
+  uint64 avatarGuid = 2;
+}

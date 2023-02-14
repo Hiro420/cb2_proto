@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message AvatarFightPropNotify {
+  uint64 avatarGuid = 1;
+  map<uint32, float> fightPropMap = 2;
+}

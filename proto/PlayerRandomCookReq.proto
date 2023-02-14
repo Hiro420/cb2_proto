@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message PlayerRandomCookReq {
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ItemParam> materialList = 1;
+}

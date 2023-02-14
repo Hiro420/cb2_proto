@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+enum ENetReason {
+  EnetTimeout = 0;
+  EnetClientClose = 1;
+  EnetClientRebindFail = 2;
+  EnetClientShutdown = 3;
+  EnetServerRelogin = 4;
+  EnetServerKick = 5;
+  EnetServerShutdown = 6;
+  EnetNotFoundSession = 7;
+  EnetLoginUnfinished = 8;
+  EnetPacketFreqTooHigh = 9;
+  EnetPingTimeout = 10;
+  EnetTranferFailed = 11;
+  EnetClientConnectKey = 1234567890;
+  EnetClientEditorConnectKey = 987654321;
+}

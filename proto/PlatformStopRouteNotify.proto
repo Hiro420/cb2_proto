@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message PlatformStopRouteNotify {
+  uint32 entityId = 1;
+  uint32 sceneTime = 2;
+}

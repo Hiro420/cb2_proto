@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message AvatarUpgradeRsp {
+  int32 retcode = 1;
+  uint64 avatarGuid = 2;
+  uint32 oldLevel = 3;
+  uint32 curLevel = 4;
+  map<uint32, float> oldFightPropMap = 5;
+  map<uint32, float> curFightPropMap = 6;
+}

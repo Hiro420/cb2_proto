@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SceneGetAreaExplorePercentRsp {
+  int32 retcode = 1;
+  float explorePercent = 2;
+  uint32 areaId = 3;
+}

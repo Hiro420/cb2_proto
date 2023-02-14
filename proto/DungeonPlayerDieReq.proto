@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "PlayerDieType.proto";
+
+message DungeonPlayerDieReq {
+  uint32 dungeonId = 1;
+  PlayerDieType dieType = 2;
+}

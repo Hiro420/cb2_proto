@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message AvatarTeam {
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt64> avatarGuidList = 1;
+  string teamName = 2;
+}

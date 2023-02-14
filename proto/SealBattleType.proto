@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum SealBattleType {
+  SealBattleKeepAlive = 0;
+  SealBattleKillMonster = 1;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message AvatarSkillUpgradeReq {
+  uint64 avatarGuid = 1;
+  uint32 avatarSkillId = 2;
+  uint32 oldLevel = 3;
+}

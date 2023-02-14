@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message WearEquipReq {
+  uint64 avatarGuid = 1;
+  uint64 equipGuid = 2;
+}

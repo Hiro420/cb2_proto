@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SeeMonsterReq {
+  uint32 monsterId = 1;
+}

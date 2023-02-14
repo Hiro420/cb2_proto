@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message AvatarFetterInfo {
+  uint32 expNumber = 1;
+  uint32 expLevel = 2;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> openIdList = 3;
+}

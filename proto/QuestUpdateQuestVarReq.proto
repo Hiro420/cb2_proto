@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message QuestUpdateQuestVarReq {
+  uint32 questId = 1;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.QuestVarOp> questVarOpList = 2;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message EvtCostStaminaNotify {
+  float costStamina = 1;
+  uint32 skillId = 2;
+}

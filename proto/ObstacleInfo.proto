@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "Vector.proto";
+import "MathQuaternion.proto";
+import "Vector3Int.proto";
+
+message ObstacleInfo {
+  enum ShapeType {
+    ObstacleShapeCapsule = 0;
+    ObstacleShapeBox = 1;
+  }
+  int32 obstacleId = 1;
+  ShapeType shape = 2;
+  Vector center = 3;
+  MathQuaternion rotation = 4;
+  Vector3Int extents = 5;
+}

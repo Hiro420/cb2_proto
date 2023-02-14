@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SeaLampActivityInfo.proto";
+import "SeaLampActivityPlayerInfo.proto";
+
+message SeaLampGetActivityInfoRsp {
+  int32 retcode = 1;
+  SeaLampActivityInfo activityInfo = 2;
+  SeaLampActivityPlayerInfo activityPlayerInfo = 3;
+}

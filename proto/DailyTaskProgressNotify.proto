@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "DailyTaskInfo.proto";
+
+message DailyTaskProgressNotify {
+  DailyTaskInfo info = 1;
+}

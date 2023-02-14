@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message GetPlayerTokenReq {
+  uint32 accountType = 1;
+  string accountUid = 2;
+  string accountToken = 3;
+  string accountExt = 4;
+  uint32 uid = 5;
+  bool isGuest = 6;
+}

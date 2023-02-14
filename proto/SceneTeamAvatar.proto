@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "AvatarInfo.proto";
+import "SceneAvatarInfo.proto";
+
+message SceneTeamAvatar {
+  uint32 playerUid = 1;
+  uint64 avatarGuid = 2;
+  uint32 sceneId = 3;
+  uint32 entityId = 4;
+  AvatarInfo avatarInfo = 5;
+  SceneAvatarInfo sceneAvatarInfo = 6;
+}

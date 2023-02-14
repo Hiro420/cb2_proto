@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message AvatarSkillInfo {
+  uint32 passCdTime = 1;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> fullCdTimeList = 2;
+  uint32 maxChargeCount = 3;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message EntityJumpNotify {
+  enum Type {
+    Null = 0;
+    Active = 1;
+    Passive = 2;
+  }
+  uint32 entityId = 1;
+  Type jumpType = 2;
+  Vector pos = 3;
+  Vector rot = 4;
+}

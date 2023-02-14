@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ReliquaryPromoteReq {
+  uint64 targetGuid = 1;
+  uint64 itemGuid = 2;
+}

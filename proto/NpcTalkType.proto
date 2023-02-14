@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum NpcTalkType {
+  TalkNone = 0;
+  TalkStart = 1;
+  TalkChoose = 2;
+  TalkNext = 3;
+  TalkFinish = 4;
+}

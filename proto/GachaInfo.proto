@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message GachaInfo {
+  uint32 gachaType = 1;
+  uint32 scheduleId = 2;
+  uint32 beginTime = 3;
+  uint32 endTime = 4;
+  uint32 costItemId = 5;
+  uint32 costItemNum = 6;
+  string gachaPrefabPath = 7;
+  string gachaProbUrl = 8;
+  string gachaRecordUrl = 9;
+}

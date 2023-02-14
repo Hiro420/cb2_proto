@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message TrialAvatarGrantRecord {
+  enum GrantReason {
+    Invalid = 0;
+    GrantByQuest = 1;
+  }
+  uint32 grantReason = 1;
+  uint32 fromParentQuestId = 2;
+}

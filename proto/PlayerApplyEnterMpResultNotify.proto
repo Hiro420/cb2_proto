@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message PlayerApplyEnterMpResultNotify {
+  enum Reason {
+    PlayerJudge = 0;
+    SceneCannotEnter = 1;
+    PlayerCannotEnterMp = 2;
+    SystemJudge = 3;
+    AllowEnterPlayerFull = 4;
+  }
+  uint32 targetUid = 1;
+  bool isAgreed = 2;
+  Reason reason = 3;
+}

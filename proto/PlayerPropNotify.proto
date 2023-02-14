@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "PropValue.proto";
+
+message PlayerPropNotify {
+  map<uint32, PropValue> propMap = 1;
+}

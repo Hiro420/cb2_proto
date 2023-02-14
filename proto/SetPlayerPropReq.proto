@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SetPlayerPropReq {
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.PropValue> propList = 1;
+}

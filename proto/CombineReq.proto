@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CombineReq {
+  uint32 combineId = 1;
+  uint32 combineCount = 2;
+  uint64 avatarGuid = 3;
+}

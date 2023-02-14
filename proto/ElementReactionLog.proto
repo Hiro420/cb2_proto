@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message ElementReactionLog {
+  uint32 sourceId = 1;
+  uint32 targetId = 2;
+  string abilityName = 3;
+  string modifierName = 4;
+  string animEventId = 5;
+  string attackTag = 6;
+  uint32 reactionType = 7;
+  uint32 count = 8;
+  uint32 sourceLv = 9;
+  uint32 targetLv = 10;
+  Vector pos = 11;
+  uint32 time = 12;
+}

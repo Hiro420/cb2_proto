@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "VisionType.proto";
+
+message SceneEntityAppearNotify {
+  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.SceneEntityInfo> entityList = 1;
+  VisionType appearType = 2;
+  uint32 param = 3;
+}

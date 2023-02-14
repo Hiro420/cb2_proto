@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message GetQuestTalkHistoryRsp {
+  int32 retcode = 1;
+  uint32 parentQuestId = 2;
+  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> talkIdList = 3;
+}

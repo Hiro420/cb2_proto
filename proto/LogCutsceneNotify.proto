@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message LogCutsceneNotify {
+  string cutsceneName = 1;
+  bool isStart = 2;
+  bool isSkip = 3;
+}

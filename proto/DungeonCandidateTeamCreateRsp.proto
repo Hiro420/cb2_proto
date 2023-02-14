@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message DungeonCandidateTeamCreateRsp {
+  int32 retcode = 1;
+}

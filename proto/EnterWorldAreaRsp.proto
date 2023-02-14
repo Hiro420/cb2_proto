@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message EnterWorldAreaRsp {
+  int32 retcode = 1;
+  uint32 areaType = 2;
+  uint32 areaId = 3;
+}

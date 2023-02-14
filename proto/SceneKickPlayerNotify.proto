@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SceneKickPlayerNotify {
+  uint32 kickerUid = 1;
+  uint32 targetUid = 2;
+}

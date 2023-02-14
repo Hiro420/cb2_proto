@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "ClientReconnectReason.proto";
+
+message ClientReconnectNotify {
+  ClientReconnectReason reason = 1;
+}
