@@ -214,6 +214,7 @@
   "MassiveEntityStateChangedNotify": "347",
   "SyncTeamEntityNotify": "348",
   "DelTeamEntityNotify": "349",
+  "CombatInvocationsNotify": "350",
   "QuestListNotify": "401",
   "QuestListUpdateNotify": "402",
   "QuestDelNotify": "403",

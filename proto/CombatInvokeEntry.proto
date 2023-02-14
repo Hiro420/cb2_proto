@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "CombatTypeArgument.proto";
+import "ForwardType.proto";
+
+message CombatInvocationsNotify {
+  CombatTypeArgument argument_type = 1
+  ForwardType forward_type = 2
+  bytes combat_data = 3
+}
