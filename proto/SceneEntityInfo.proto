@@ -28,7 +28,7 @@ message SceneEntityInfo {
   map<uint32, float> fightPropMap = 6;
   uint32 lifeState = 7;
   AbilitySyncStateInfo abilityInfo = 8;
-  map<int32, AnimatorParameterValueInfo> animatorParaMap = 9;
+  map<int32, AnimatorParameterValueInfo animatorParaMap = 9;
   EntityRendererChangedInfo rendererChangedInfo = 14;
   SceneEntityAiInfo aiInfo = 15;
   SceneEntityQuestInfo questInfo = 16;

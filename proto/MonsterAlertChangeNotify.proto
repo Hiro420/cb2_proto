@@ -3,5 +3,5 @@ syntax = "proto3";
 message MonsterAlertChangeNotify {
   uint32 avatarEntityId = 2;
   uint32 isAlert = 3;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> monsterEntityList = 4;
+  repeated uint32 monsterEntityList = 4;
 }

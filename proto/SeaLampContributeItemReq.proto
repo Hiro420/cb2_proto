@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "ItemParam.proto";
+
 message SeaLampContributeItemReq {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ItemParam> itemList = 1;
+  repeated ItemParam itemList = 1;
 }

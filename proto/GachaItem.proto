@@ -1,10 +1,11 @@
 syntax = "proto3";
 
+import "GachaTransferItem.proto";
 import "ItemParam.proto";
 
 message GachaItem {
   ItemParam gachaItem_ = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.GachaTransferItem> transferItems = 2;
+  repeated GachaTransferItem transferItems = 2;
   bool isFlashCard = 3;
   bool isGachaItemNew = 4;
 }

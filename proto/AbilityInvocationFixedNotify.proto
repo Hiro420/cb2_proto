@@ -6,7 +6,7 @@ import "AbilityInvokeEntry.proto";
 message AbilityInvocationFixedNotify {
   ForwardType forwardType = 1;
   uint32 forwardPeer = 2;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> forwardPeers = 3;
+  repeated uint32 forwardPeers = 3;
   AbilityInvokeEntry invoke1St = 4;
   AbilityInvokeEntry invoke2Nd = 5;
   AbilityInvokeEntry invoke3Rd = 6;

@@ -1,8 +1,9 @@
 syntax = "proto3";
 
 import "StoreType.proto";
+import "Item.proto";
 
 message StoreItemChangeNotify {
   StoreType storeType = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.Item> itemList = 2;
+  repeated Item itemList = 2;
 }

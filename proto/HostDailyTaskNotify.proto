@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "DailyTaskInfo.proto";
+
 message HostDailyTaskNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.DailyTaskInfo> taskList = 1;
+  repeated DailyTaskInfo taskList = 1;
 }

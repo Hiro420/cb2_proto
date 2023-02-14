@@ -6,7 +6,7 @@ message AvatarEnterSceneInfo {
   uint64 avatarGuid = 1;
   uint32 avatarEntityId = 2;
   AbilitySyncStateInfo avatarAbilityInfo = 3;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> buffIdList = 4;
+  repeated uint32 buffIdList = 4;
   uint64 weaponGuid = 5;
   uint32 weaponEntityId = 6;
   AbilitySyncStateInfo weaponAbilityInfo = 7;

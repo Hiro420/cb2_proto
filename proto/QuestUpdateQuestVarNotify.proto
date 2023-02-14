@@ -2,5 +2,5 @@ syntax = "proto3";
 
 message QuestUpdateQuestVarNotify {
   uint32 parentQuestId = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.Int32> questVar = 2;
+  repeated int32 questVar = 2;
 }

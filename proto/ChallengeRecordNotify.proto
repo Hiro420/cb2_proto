@@ -1,6 +1,8 @@
 syntax = "proto3";
 
+import "ChallengeRecord.proto";
+
 message ChallengeRecordNotify {
   uint32 groupId = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ChallengeRecord> challengeRecordList = 2;
+  repeated ChallengeRecord challengeRecordList = 2;
 }

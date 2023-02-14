@@ -1,11 +1,13 @@
 syntax = "proto3";
 
+import "ItemParam.proto";
+
 import "ForgeQueueManipulateType.proto";
 
 message ForgeQueueManipulateRsp {
   int32 retcode = 1;
   ForgeQueueManipulateType manipulateType = 2;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ItemParam> outputItemList = 3;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ItemParam> returnItemList = 4;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ItemParam> extraOutputItemList = 5;
+  repeated ItemParam outputItemList = 3;
+  repeated ItemParam returnItemList = 4;
+  repeated ItemParam extraOutputItemList = 5;
 }

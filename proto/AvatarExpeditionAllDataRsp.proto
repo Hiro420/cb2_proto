@@ -4,7 +4,7 @@ import "AvatarExpeditionInfo.proto";
 
 message AvatarExpeditionAllDataRsp {
   int32 retcode = 1;
-  map<uint64, AvatarExpeditionInfo> expeditionInfoMap = 2;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> openExpeditionList = 3;
+  map<uint64, AvatarExpeditionInfo expeditionInfoMap = 2;
+  repeated uint32 openExpeditionList = 3;
   uint32 expeditionCountLimit = 4;
 }

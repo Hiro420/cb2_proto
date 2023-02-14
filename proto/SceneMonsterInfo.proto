@@ -1,14 +1,15 @@
 syntax = "proto3";
 
 import "MonsterBornType.proto";
+import "SceneWeaponInfo.proto";
 
 message SceneMonsterInfo {
   uint32 monsterId = 1;
   uint32 groupId = 2;
   uint32 configId = 3;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.SceneWeaponInfo> weaponList = 4;
+  repeated SceneWeaponInfo weaponList = 4;
   uint32 authorityPeerId = 5;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> affixList = 6;
+  repeated uint32 affixList = 6;
   bool isElite = 7;
   uint32 ownerEntityId = 8;
   uint32 summonedTag = 9;

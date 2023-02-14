@@ -1,6 +1,8 @@
 syntax = "proto3";
 
+import "MailData.proto";
+
 message GetAllMailRsp {
   uint32 retcode = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.MailData> mailList = 2;
+  repeated MailData mailList = 2;
 }

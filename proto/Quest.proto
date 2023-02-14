@@ -9,8 +9,8 @@ message Quest {
   uint32 questConfigId = 7;
   uint32 startGameTime = 8;
   uint32 acceptTime = 9;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> lackedNpcList = 10;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> finishProgressList = 11;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> failProgressList = 12;
+  repeated uint32 lackedNpcList = 10;
+  repeated uint32 finishProgressList = 11;
+  repeated uint32 failProgressList = 12;
   map<uint32, uint32> lackedNpcMap = 13;
 }

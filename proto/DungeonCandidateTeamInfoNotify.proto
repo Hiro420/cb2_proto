@@ -1,7 +1,9 @@
 syntax = "proto3";
 
+import "DungeonCandidateTeamAvatar.proto";
+
 message DungeonCandidateTeamInfoNotify {
   uint32 dungeonId = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.DungeonCandidateTeamAvatar> avatarList = 2;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> readyPlayerUid = 3;
+  repeated DungeonCandidateTeamAvatar avatarList = 2;
+  repeated uint32 readyPlayerUid = 3;
 }

@@ -1,8 +1,10 @@
 syntax = "proto3";
 
+import "CityInfo.proto";
+
 message GetSceneAreaRsp {
   int32 retcode = 1;
   uint32 sceneId = 2;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> areaIdList = 3;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.CityInfo> cityInfoList = 4;
+  repeated uint32 areaIdList = 3;
+  repeated CityInfo cityInfoList = 4;
 }

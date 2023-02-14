@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "ElementReactionLog.proto";
+
 message ElementReactionLogNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ElementReactionLog> logList = 1;
+  repeated ElementReactionLog logList = 1;
 }

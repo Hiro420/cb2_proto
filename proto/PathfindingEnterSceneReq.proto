@@ -1,8 +1,10 @@
 syntax = "proto3";
 
+import "ObstacleInfo.proto";
+
 message PathfindingEnterSceneReq {
   uint32 sceneId = 1;
   uint32 version = 2;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ObstacleInfo> obstacles = 3;
+  repeated ObstacleInfo obstacles = 3;
   bool isEditor = 4;
 }

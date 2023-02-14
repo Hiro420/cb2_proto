@@ -1,8 +1,10 @@
 syntax = "proto3";
 
+import "RoutePointChangeInfo.proto";
+
 message SceneRouteChangeInfo {
   uint32 routeId = 1;
   uint32 type = 2;
   bool isForward = 3;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.RoutePointChangeInfo> pointList = 4;
+  repeated RoutePointChangeInfo pointList = 4;
 }

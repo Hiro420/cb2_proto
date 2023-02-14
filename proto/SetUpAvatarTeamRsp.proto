@@ -3,6 +3,6 @@ syntax = "proto3";
 message SetUpAvatarTeamRsp {
   int32 retcode = 1;
   uint32 teamId = 2;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt64> avatarTeamGuidList = 3;
+  repeated uint64 avatarTeamGuidList = 3;
   uint64 curAvatarGuid = 4;
 }

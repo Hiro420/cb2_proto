@@ -4,5 +4,5 @@ import "AvatarExpeditionInfo.proto";
 
 message AvatarExpeditionCallBackRsp {
   int32 retcode = 1;
-  map<uint64, AvatarExpeditionInfo> expeditionInfoMap = 2;
+  map<uint64, AvatarExpeditionInfo expeditionInfoMap = 2;
 }

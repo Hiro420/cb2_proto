@@ -2,5 +2,5 @@ syntax = "proto3";
 
 message GetPushTipsRewardRsp {
   int32 retcode = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> pushTipsIdList = 2;
+  repeated uint32 pushTipsIdList = 2;
 }

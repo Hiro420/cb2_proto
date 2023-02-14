@@ -1,7 +1,9 @@
 syntax = "proto3";
 
+import "ItemParam.proto";
+
 message WeaponUpgradeReq {
   uint64 targetWeaponGuid = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt64> foodWeaponGuidList = 2;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ItemParam> itemParamList = 3;
+  repeated uint64 foodWeaponGuidList = 2;
+  repeated ItemParam itemParamList = 3;
 }

@@ -1,11 +1,12 @@
 syntax = "proto3";
 
 import "AvatarTeam.proto";
+import "AvatarInfo.proto";
 
 message AvatarDataNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.AvatarInfo> avatarList = 1;
-  map<uint32, AvatarTeam> avatarTeamMap = 2;
+  repeated AvatarInfo avatarList = 1;
+  map<uint32, AvatarTeam avatarTeamMap = 2;
   uint32 curAvatarTeamId = 3;
   uint64 chooseAvatarGuid = 4;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt64> tempAvatarGuidList = 5;
+  repeated uint64 tempAvatarGuidList = 5;
 }

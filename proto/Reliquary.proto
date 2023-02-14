@@ -5,5 +5,5 @@ message Reliquary {
   uint32 exp = 2;
   uint32 promoteLevel = 3;
   uint32 mainPropId = 4;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> appendPropIdList = 5;
+  repeated uint32 appendPropIdList = 5;
 }

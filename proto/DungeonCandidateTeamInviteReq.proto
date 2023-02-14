@@ -1,5 +1,5 @@
 syntax = "proto3";
 
 message DungeonCandidateTeamInviteReq {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> playerUids = 1;
+  repeated uint32 playerUids = 1;
 }

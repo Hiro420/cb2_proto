@@ -1,10 +1,11 @@
 syntax = "proto3";
 
 import "ForwardType.proto";
+import "AbilityInvokeEntry.proto";
 
 message AbilityInvocationsNotify {
   ForwardType forwardType = 1;
   uint32 forwardPeer = 2;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> forwardPeers = 3;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.AbilityInvokeEntry> invokes = 4;
+  repeated uint32 forwardPeers = 3;
+  repeated AbilityInvokeEntry invokes = 4;
 }

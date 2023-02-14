@@ -1,6 +1,8 @@
 syntax = "proto3";
 
+import "MapMarkPoint.proto";
+
 message MarkMapRsp {
   int32 retcode = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.MapMarkPoint> markList = 2;
+  repeated MapMarkPoint markList = 2;
 }

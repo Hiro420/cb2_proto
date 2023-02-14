@@ -1,6 +1,8 @@
 syntax = "proto3";
 
+import "PBNavMeshTile.proto";
+
 message GMShowNavMeshRsp {
   int32 retcode = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.PBNavMeshTile> tiles = 2;
+  repeated PBNavMeshTile tiles = 2;
 }

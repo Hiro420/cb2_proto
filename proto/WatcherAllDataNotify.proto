@@ -1,5 +1,5 @@
 syntax = "proto3";
 
 message WatcherAllDataNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> watcherList = 1;
+  repeated uint32 watcherList = 1;
 }

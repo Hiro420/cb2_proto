@@ -2,6 +2,6 @@ syntax = "proto3";
 
 message WatcherEventTypeNotify {
   uint32 watcherTriggerType = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> paramList = 2;
+  repeated uint32 paramList = 2;
   uint32 addProgress = 3;
 }

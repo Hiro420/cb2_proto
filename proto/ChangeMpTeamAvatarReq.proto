@@ -1,6 +1,6 @@
 syntax = "proto3";
 
 message ChangeMpTeamAvatarReq {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt64> avatarGuidList = 1;
+  repeated uint64 avatarGuidList = 1;
   uint64 curAvatarGuid = 2;
 }

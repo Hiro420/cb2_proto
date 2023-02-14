@@ -3,6 +3,6 @@ syntax = "proto3";
 import "VisionType.proto";
 
 message SceneEntityDisappearNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> entityList = 1;
+  repeated uint32 entityList = 1;
   VisionType disappearType = 2;
 }

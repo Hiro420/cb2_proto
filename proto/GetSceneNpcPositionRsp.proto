@@ -1,7 +1,9 @@
 syntax = "proto3";
 
+import "NpcPositionInfo.proto";
+
 message GetSceneNpcPositionRsp {
   int32 retcode = 1;
   uint32 sceneId = 2;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.NpcPositionInfo> npcInfoList = 3;
+  repeated NpcPositionInfo npcInfoList = 3;
 }

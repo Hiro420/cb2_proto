@@ -1,6 +1,8 @@
 syntax = "proto3";
 
+import "CompoundQueueData.proto";
+
 message CompoundDataNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> unlockCompoundList = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.CompoundQueueData> compoundQueDataList = 2;
+  repeated uint32 unlockCompoundList = 1;
+  repeated CompoundQueueData compoundQueDataList = 2;
 }

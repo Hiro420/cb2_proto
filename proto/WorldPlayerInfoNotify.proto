@@ -1,6 +1,8 @@
 syntax = "proto3";
 
+import "OnlinePlayerInfo.proto";
+
 message WorldPlayerInfoNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.OnlinePlayerInfo> playerInfoList = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> playerUidList = 2;
+  repeated OnlinePlayerInfo playerInfoList = 1;
+  repeated uint32 playerUidList = 2;
 }

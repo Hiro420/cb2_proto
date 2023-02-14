@@ -4,5 +4,5 @@ import "AvatarSkillInfo.proto";
 
 message AvatarSkillInfoNotify {
   uint64 guid = 1;
-  map<uint32, AvatarSkillInfo> skillMap = 2;
+  map<uint32, AvatarSkillInfo skillMap = 2;
 }

@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "PlayerLocationInfo.proto";
+
 message WorldPlayerLocationNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.PlayerLocationInfo> playerLocList = 1;
+  repeated PlayerLocationInfo playerLocList = 1;
 }

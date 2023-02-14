@@ -1,6 +1,8 @@
 syntax = "proto3";
 
+import "AbilityInvokeEntry.proto";
+
 message ClientAbilityInitFinishNotify {
   uint32 entityId = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.AbilityInvokeEntry> invokes = 2;
+  repeated AbilityInvokeEntry invokes = 2;
 }

@@ -1,6 +1,8 @@
 syntax = "proto3";
 
+import "PlayerLocationInfo.proto";
+
 message ScenePlayerLocationNotify {
   uint32 sceneId = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.PlayerLocationInfo> playerLocList = 2;
+  repeated PlayerLocationInfo playerLocList = 2;
 }

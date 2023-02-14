@@ -2,5 +2,5 @@ syntax = "proto3";
 
 message WorktopOptionNotify {
   uint32 gadgetEntityId = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> optionList = 2;
+  repeated uint32 optionList = 2;
 }

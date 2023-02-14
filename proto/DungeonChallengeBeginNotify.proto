@@ -3,5 +3,5 @@ syntax = "proto3";
 message DungeonChallengeBeginNotify {
   uint32 challengeId = 1;
   uint32 challengeIndex = 2;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> paramList = 3;
+  repeated uint32 paramList = 3;
 }

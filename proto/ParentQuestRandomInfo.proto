@@ -3,5 +3,5 @@ syntax = "proto3";
 message ParentQuestRandomInfo {
   uint32 entranceId = 1;
   uint32 templateId = 2;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> factorList = 3;
+  repeated uint32 factorList = 3;
 }

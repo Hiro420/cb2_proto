@@ -5,5 +5,5 @@ import "ForgeQueueData.proto";
 message ForgeGetQueueDataRsp {
   int32 retcode = 1;
   uint32 maxQueueNum = 2;
-  map<uint32, ForgeQueueData> forgeQueueMap = 3;
+  map<uint32, ForgeQueueData forgeQueueMap = 3;
 }

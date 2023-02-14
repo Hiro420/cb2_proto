@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "GivingRecord.proto";
+
 message GivingRecordNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.GivingRecord> givingRecordList = 1;
+  repeated GivingRecord givingRecordList = 1;
 }

@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "PushTipsData.proto";
+
 message PushTipsChangeNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.PushTipsData> pushTipsList = 1;
+  repeated PushTipsData pushTipsList = 1;
 }

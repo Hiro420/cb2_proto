@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "EvtBeingHitInfo.proto";
+
 message EvtBeingHitsCombineNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.EvtBeingHitInfo> evtBeingHitInfoList = 1;
+  repeated EvtBeingHitInfo evtBeingHitInfoList = 1;
 }

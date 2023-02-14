@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "EntityMoveFailInfo.proto";
+
 message SceneEntitiesMovesRsp {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.EntityMoveFailInfo> entityMoveFailInfoList = 1;
+  repeated EntityMoveFailInfo entityMoveFailInfoList = 1;
 }

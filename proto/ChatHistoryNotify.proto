@@ -1,6 +1,8 @@
 syntax = "proto3";
 
+import "ChatInfo.proto";
+
 message ChatHistoryNotify {
   uint32 channelId = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ChatInfo> chatInfo = 2;
+  repeated ChatInfo chatInfo = 2;
 }

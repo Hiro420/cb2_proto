@@ -1,7 +1,9 @@
 syntax = "proto3";
 
+import "SceneRouteChangeInfo.proto";
+
 message SceneRouteChangeNotify {
   uint32 sceneId = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.SceneRouteChangeInfo> routeList = 2;
+  repeated SceneRouteChangeInfo routeList = 2;
   uint32 sceneTime = 3;
 }

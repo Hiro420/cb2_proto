@@ -4,5 +4,5 @@ import "StoreType.proto";
 
 message StoreItemDelNotify {
   StoreType storeType = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt64> guidList = 2;
+  repeated uint64 guidList = 2;
 }

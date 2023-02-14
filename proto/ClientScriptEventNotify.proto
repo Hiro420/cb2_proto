@@ -4,5 +4,5 @@ message ClientScriptEventNotify {
   uint32 eventType = 1;
   uint32 sourceEntityId = 2;
   uint32 targetEntityId = 3;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.Int32> paramList = 4;
+  repeated int32 paramList = 4;
 }

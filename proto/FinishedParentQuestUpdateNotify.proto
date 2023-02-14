@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "ParentQuest.proto";
+
 message FinishedParentQuestUpdateNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ParentQuest> parentQuestList = 1;
+  repeated ParentQuest parentQuestList = 1;
 }

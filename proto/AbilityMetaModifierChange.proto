@@ -2,6 +2,7 @@ syntax = "proto3";
 
 import "ModifierAction.proto";
 import "AbilityString.proto";
+import "ModifierProperty.proto";
 import "AbilityAttachedModifier.proto";
 
 message AbilityMetaModifierChange {
@@ -9,7 +10,7 @@ message AbilityMetaModifierChange {
   AbilityString parentAbilityName = 2;
   AbilityString parentAbilityOverride = 3;
   AbilityAttachedModifier attachedInstancedModifier = 4;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ModifierProperty> properties = 5;
+  repeated ModifierProperty properties = 5;
   int32 modifierLocalId = 6;
   bool isMuteRemote = 7;
   uint32 applyEntityId = 8;

@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "ClientMassiveEntity.proto";
+
 message DestroyMassiveEntityNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.ClientMassiveEntity> massiveEntityList = 1;
+  repeated ClientMassiveEntity massiveEntityList = 1;
 }

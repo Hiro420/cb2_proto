@@ -1,9 +1,11 @@
 syntax = "proto3";
 
+import "CellInfo.proto";
+
 message MapInfo {
   int32 minx = 1;
   int32 maxx = 2;
   int32 minz = 3;
   int32 maxz = 4;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.CellInfo> cells = 5;
+  repeated CellInfo cells = 5;
 }

@@ -6,6 +6,6 @@ message PBNavMeshPoly {
     TileBound = 1;
     TileBoundUnconnect = 2;
   }
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.Int32> vects = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.PBNavMeshPoly/Types/EdgeType> edgeTypes = 2;
+  repeated int32 vects = 1;
+  repeated EdgeType edgeTypes = 2;
 }

@@ -2,5 +2,5 @@ syntax = "proto3";
 
 message DelTeamEntityNotify {
   uint32 sceneId = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> delEntityIdList = 2;
+  repeated uint32 delEntityIdList = 2;
 }

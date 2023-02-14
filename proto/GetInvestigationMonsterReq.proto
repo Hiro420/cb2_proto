@@ -1,5 +1,5 @@
 syntax = "proto3";
 
 message GetInvestigationMonsterReq {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> cityIdList = 1;
+  repeated uint32 cityIdList = 1;
 }

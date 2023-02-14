@@ -1,6 +1,8 @@
 syntax = "proto3";
 
+import "OnlinePlayerInfo.proto";
+
 message GetOnlinePlayerListRsp {
   int32 retcode = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.OnlinePlayerInfo> playerInfoList = 2;
+  repeated OnlinePlayerInfo playerInfoList = 2;
 }

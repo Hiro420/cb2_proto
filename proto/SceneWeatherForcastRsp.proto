@@ -3,5 +3,5 @@ syntax = "proto3";
 message SceneWeatherForcastRsp {
   int32 retcode = 1;
   uint64 nextClimateTime = 2;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> forcastClimateList = 3;
+  repeated uint32 forcastClimateList = 3;
 }

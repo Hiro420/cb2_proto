@@ -3,5 +3,5 @@ syntax = "proto3";
 import "AiSkillCdInfo.proto";
 
 message EvtAiSyncSkillCdNotify {
-  map<uint32, AiSkillCdInfo> aiCdMap = 1;
+  map<uint32, AiSkillCdInfo aiCdMap = 1;
 }

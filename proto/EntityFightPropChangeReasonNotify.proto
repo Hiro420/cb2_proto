@@ -7,5 +7,5 @@ message EntityFightPropChangeReasonNotify {
   uint32 propType = 2;
   float propDelta = 3;
   PropChangeReason reason = 4;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> paramList = 5;
+  repeated uint32 paramList = 5;
 }

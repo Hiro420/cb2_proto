@@ -2,10 +2,11 @@ syntax = "proto3";
 
 import "TeamEnterSceneInfo.proto";
 import "MPLevelEntityInfo.proto";
+import "AvatarEnterSceneInfo.proto";
 
 message PlayerEnterSceneInfoNotify {
   uint32 curAvatarEntityId = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.AvatarEnterSceneInfo> avatarEnterInfo = 2;
+  repeated AvatarEnterSceneInfo avatarEnterInfo = 2;
   TeamEnterSceneInfo teamEnterInfo = 3;
   MPLevelEntityInfo mpLevelEntityInfo = 4;
 }

@@ -1,7 +1,9 @@
 syntax = "proto3";
 
+import "CompoundQueueData.proto";
+
 message GetCompoundDataRsp {
   uint32 retcode = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> unlockCompoundList = 2;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.CompoundQueueData> compoundQueDataList = 3;
+  repeated uint32 unlockCompoundList = 2;
+  repeated CompoundQueueData compoundQueDataList = 3;
 }

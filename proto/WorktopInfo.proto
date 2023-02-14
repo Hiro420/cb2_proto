@@ -1,5 +1,5 @@
 syntax = "proto3";
 
 message WorktopInfo {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> optionList = 1;
+  repeated uint32 optionList = 1;
 }

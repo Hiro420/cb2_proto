@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "MassiveEntityState.proto";
+
 message MassiveEntityStateChangedNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.MassiveEntityState> massiveEntityStateList = 1;
+  repeated MassiveEntityState massiveEntityStateList = 1;
 }

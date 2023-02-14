@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "AbilityScalarValueEntry.proto";
+
 message AbilityMetaReInitOverrideMap {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.AbilityScalarValueEntry> overrideMap = 1;
+  repeated AbilityScalarValueEntry overrideMap = 1;
 }

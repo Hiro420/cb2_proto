@@ -3,6 +3,6 @@ syntax = "proto3";
 import "Vector.proto";
 
 message DropHintNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> itemIdList = 1;
+  repeated uint32 itemIdList = 1;
   Vector position = 2;
 }

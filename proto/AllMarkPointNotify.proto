@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "MapMarkPoint.proto";
+
 message AllMarkPointNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.MapMarkPoint> markList = 1;
+  repeated MapMarkPoint markList = 1;
 }

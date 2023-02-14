@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "InvestigationTarget.proto";
+
 message PlayerInvestigationTargetNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.InvestigationTarget> investigationTargetList = 1;
+  repeated InvestigationTarget investigationTargetList = 1;
 }

@@ -6,6 +6,6 @@ message ReliquaryUpgradeRsp {
   uint32 oldLevel = 3;
   uint32 curLevel = 4;
   uint32 powerUpRate = 5;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> oldAppendPropList = 6;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> curAppendPropList = 7;
+  repeated uint32 oldAppendPropList = 6;
+  repeated uint32 curAppendPropList = 7;
 }

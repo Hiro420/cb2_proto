@@ -3,5 +3,5 @@ syntax = "proto3";
 import "AvatarFetterInfo.proto";
 
 message AvatarFetterDataNotify {
-  map<uint64, AvatarFetterInfo> fetterInfoMap = 1;
+  map<uint64, AvatarFetterInfo fetterInfoMap = 1;
 }

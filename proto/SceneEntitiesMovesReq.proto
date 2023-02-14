@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "EntityMoveInfo.proto";
+
 message SceneEntitiesMovesReq {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.EntityMoveInfo> entityMoveInfoList = 1;
+  repeated EntityMoveInfo entityMoveInfoList = 1;
 }

@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "Vector.proto";
+
 message QueryPathRsp {
   enum PathStatusType {
     StatusFail = 0;
@@ -9,5 +11,5 @@ message QueryPathRsp {
   int32 retcode = 1;
   int32 queryId = 2;
   PathStatusType queryStatus = 3;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.Vector> corners = 4;
+  repeated Vector corners = 4;
 }

@@ -1,5 +1,5 @@
 syntax = "proto3";
 
 message AllSeenMonsterNotify {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> monsterIdList = 1;
+  repeated uint32 monsterIdList = 1;
 }

@@ -2,6 +2,6 @@ syntax = "proto3";
 
 message ScenePointUnlockNotify {
   uint32 sceneId = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> pointList = 2;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<System.UInt32> lockedPointList = 3;
+  repeated uint32 pointList = 2;
+  repeated uint32 lockedPointList = 3;
 }

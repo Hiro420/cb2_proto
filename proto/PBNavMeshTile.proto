@@ -1,6 +1,9 @@
 syntax = "proto3";
 
+import "Vector.proto";
+import "PBNavMeshPoly.proto";
+
 message PBNavMeshTile {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.Vector> vecs = 1;
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.PBNavMeshPoly> polys = 2;
+  repeated Vector vecs = 1;
+  repeated PBNavMeshPoly polys = 2;
 }

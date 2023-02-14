@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "EquipParam.proto";
+
 message EquipParamList {
-  UNK_Google.Protobuf.Collections.RepeatedField`1<Proto.EquipParam> itemList = 1;
+  repeated EquipParam itemList = 1;
 }
