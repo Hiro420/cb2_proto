@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message ClientCustomConfig {
+  bool visitor = 1;
+  string sdkenv = 2;
+  bool debugmenu = 3;
+  repeated uint32 debuglogswitch = 4;
+  bool debuglog = 5;
+  map<string, string> devicelist = 6;
+  bool loadjsondata = 7;
+  bool showexception = 8;
+}
