@@ -1,15 +1,15 @@
 syntax = "proto3";
 
 enum VisionType {
-  VisionNone = 0;
-  VisionMeet = 1;
-  VisionReborn = 2;
-  VisionReplace = 3;
-  VisionWaypointReborn = 4;
-  VisionMiss = 5;
-  VisionDie = 6;
-  VisionGatherEscape = 7;
-  VisionRefresh = 8;
-  VisionTransport = 9;
-  VisionReplaceDie = 10;
+  Vision_None = 0;
+  Vision_Meet = 1;
+  Vision_Reborn = 2;
+  Vision_Replace = 3;
+  Vision_WaypointReborn = 4;
+  Vision_Miss = 5;
+  Vision_Die = 6;
+  Vision_GatherEscape = 7;
+  Vision_Refresh = 8;
+  Vision_Transport = 9;
+  Vision_ReplaceDie = 10;
 }
